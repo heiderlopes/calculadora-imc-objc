@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Pessoa.h"
 
 @interface ViewController ()
 
@@ -26,4 +27,17 @@
 }
 
 
+- (IBAction)calcular:(id)sender {
+    
+    Pessoa *p = [[Pessoa alloc]init];
+    
+    p.peso = self.txtPeso.text.floatValue;
+    p.altura = self.txtAltura.text.floatValue;
+    p.nome = self.txtNome.text;
+    
+    self.txtIMC.text = [NSString stringWithFormat:@"%0.2f", [p calcularIMC_2]];
+    
+    self.txtAvaliacao.text = [NSString stringWithFormat:@"%@", [p avaliarIMC:self.txtIMC.text.floatValue]];
+    
+}
 @end

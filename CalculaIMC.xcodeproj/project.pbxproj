@@ -13,6 +13,7 @@
 		AC6479241EFEFA15004C1956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6479221EFEFA15004C1956 /* Main.storyboard */; };
 		AC6479261EFEFA15004C1956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6479251EFEFA15004C1956 /* Assets.xcassets */; };
 		AC6479291EFEFA15004C1956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6479271EFEFA15004C1956 /* LaunchScreen.storyboard */; };
+		AC6479321EFEFBB3004C1956 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6479311EFEFBB3004C1956 /* Pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AC6479251EFEFA15004C1956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6479281EFEFA15004C1956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC64792A1EFEFA15004C1956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6479301EFEFBB3004C1956 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		AC6479311EFEFBB3004C1956 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				AC6479271EFEFA15004C1956 /* LaunchScreen.storyboard */,
 				AC64792A1EFEFA15004C1956 /* Info.plist */,
 				AC6479191EFEFA15004C1956 /* Supporting Files */,
+				AC6479301EFEFBB3004C1956 /* Pessoa.h */,
+				AC6479311EFEFBB3004C1956 /* Pessoa.m */,
 			);
 			path = CalculaIMC;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				AC6479211EFEFA15004C1956 /* ViewController.m in Sources */,
 				AC64791E1EFEFA15004C1956 /* AppDelegate.m in Sources */,
+				AC6479321EFEFBB3004C1956 /* Pessoa.m in Sources */,
 				AC64791B1EFEFA15004C1956 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
